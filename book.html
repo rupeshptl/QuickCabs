@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cab Booking</title>
+    <link rel="stylesheet" href="book.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <h1>QuickCab</h1>
+
+      <a class="navanchor" href="index.html">Home</a>
+      <a class="navanchor" href="booking.html"> Bookings </a>
+      <!-- <a class="navanchor" href="#">Contact</a> -->
+    </div>
+
+    <section class="booking-form">
+      <h2>Book Your Ride</h2>
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Name" required />
+        <label>Mobile Number</label>
+        <input type="tel" placeholder="Mobile number " required />
+        <label>Email</label>
+        <input type="email" placeholder="Email" />
+        <label for="pickup">Pickup Location</label>
+
+        <input
+          type="text"
+          id="pickup"
+          name="pickup"
+          placeholder="Pickup Location"
+          required
+        />
+
+        <label for="drop">Drop Location</label>
+        <input
+          type="text"
+          id="drop"
+          name="drop"
+          placeholder="Drop Location"
+          required
+        />
+        <label>Date</label>
+        <input type="date" placeholder="Date" />
+
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" />
+
+        <label for="cabType"> Type</label>
+        <select id="cabType" name="cabType">
+          <option>--Select--</option>
+          <option value="sedan">Car</option>
+          <option value="suv">Bike</option>
+          <option value="mini">Auto</option>
+        </select>
+
+        <a class="button" href="pay.html">Book Now</a>
+        <!-- 
+       <a href="pay.html"><button type="submit">Book Now</button></a>  -->
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 QuickCab. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
