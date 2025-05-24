@@ -2,10 +2,8 @@
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-
 }
-body{
- 
+body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("texiimg.jpg");
   background-size: cover;
@@ -15,8 +13,10 @@ body{
 .nav {
   width: 100%;
   height: 60px;
-  background-color: rgb(27, 26, 26);
-  border: 2px,solid,red;
+  /* background-color: rgb(27, 26, 26); */
+  background: linear-gradient(to right, black, red);
+
+  border: 2px, solid, red;
   display: flex;
   justify-content: space-around;
 }
@@ -28,6 +28,7 @@ h1 {
 }
 .navanchor {
   color: white;
+  background-color: grey;
   text-decoration: none;
   font-size: 25px;
   width: 102px;
@@ -49,14 +50,13 @@ h1 {
   background-color: white;
   color: black;
 }
-.navanchor::after{
+.navanchor::after {
   font-size: 25px;
   width: 130px;
   background-color: white;
   color: black;
-
 }
-input{
+input {
   text-align: center;
 }
 

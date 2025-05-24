@@ -24,7 +24,6 @@ body {
   /* background-color: rgb(27, 26, 26); */
   background: linear-gradient(to right, black, red);
 
-
   color: white;
   display: flex;
   justify-content: space-around;
@@ -38,6 +37,8 @@ h1 {
 }
 .nav {
   color: white;
+  background-color: grey;
+
   text-decoration: none;
   font-size: 25px;
   width: 100px;
@@ -124,7 +125,9 @@ button {
   font-size: 20px;
   margin-top: 100px;
 
-  background-color: rgb(229, 9, 20);
+  /* background-color: rgb(229, 9, 20); */
+  background: linear-gradient(to right, red, orange);
+
   transition-property: all;
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
@@ -133,7 +136,6 @@ button:hover {
   width: 170px;
   font-size: 22px;
   background-color: white;
-  color: black;
 }
 button::after {
   width: 170px;
@@ -193,6 +195,18 @@ button::after {
 }
 @media (max-width: 600px) {
   .buttoncenter {
+    position: relative;
+    top: 250px;
     margin-left: 60px;
+  }
+  button {
+    background: linear-gradient(to right, red, orange);
+  }
+  button:hover {
+    color: white;
+  }
+  body {
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, red, black);
   }
 }
