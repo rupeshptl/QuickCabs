@@ -7,7 +7,7 @@
   width: 100%;
   height: 65px;
   background-color: rgb(27, 26, 26);
-  border: 2px,solid,red;
+  border: 2px, solid, red;
   color: #ff4a57;
   font-size: 20px;
   padding-top: 15px;
@@ -43,7 +43,7 @@
   background-color: white;
   color: black;
 }
-#heading{
+#heading {
   background-color: black;
   color: #ff4a57;
   font-size: 25px;
@@ -61,7 +61,24 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-   height: auto;
+  height: auto;
+}
+.payupi {
+  display: flex;
+  justify-content: center;
+}
+.verify {
+  margin-left: 10px;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+}
+input {
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
 }
 summary {
   font-size: 25px;
@@ -94,6 +111,7 @@ h2 {
   text-decoration: none;
   width: 100%;
   padding: 12px;
+  margin-top: 10px;
   background-color: #2e86de;
   color: white;
   border: none;
@@ -108,7 +126,6 @@ h2 {
 .button::after {
   background-color: rgb(56, 170, 56);
 }
-
 
 #rate::after {
   text-decoration: underline;
@@ -125,15 +142,15 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-p{
+p {
   text-transform: capitalize;
 }
-#issue{
+#issue {
   width: 100px;
   height: 20px;
   font-size: 15px;
   border-radius: 5px;
-  border: 1px,solid,black ;
+  border: 1px, solid, black;
   text-decoration: none;
   background-color: red;
   color: white;
@@ -144,5 +161,4 @@ p{
   text-decoration: underline;
   background-color: white;
   color: black;
-
 }
