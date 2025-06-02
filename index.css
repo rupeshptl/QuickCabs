@@ -183,7 +183,7 @@ button::after {
   font-weight: bolder;
 }
 .support:hover {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 .socialtag:hover {
   text-decoration: underline;
