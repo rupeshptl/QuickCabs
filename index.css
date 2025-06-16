@@ -130,12 +130,13 @@ button {
 
   transition-property: all;
   transition-duration: 0.3s;
-  transition-timing-function: ease-in;
+  transition-timing-function: linear;
 }
 button:hover {
-  width: 170px;
-  font-size: 22px;
+  /* width: 170px; */
+  /* font-size: 22px; */
   background-color: white;
+  transform: scale(1.5);
 }
 button::after {
   width: 170px;
@@ -183,7 +184,7 @@ button::after {
   font-weight: bolder;
 }
 .support:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 .socialtag:hover {
   text-decoration: underline;
